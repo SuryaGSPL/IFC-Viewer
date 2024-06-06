@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { IfcViewerAPI } from 'web-ifc-viewer';
 import { IfcContainer } from './IfcContainer';
 import { Color } from 'three';
-import { Input, TextField } from '@mui/material';
+import { TextField } from '@mui/material';
 
 export default function App() {
   const [loading, setLoading] = useState<boolean>(false);
